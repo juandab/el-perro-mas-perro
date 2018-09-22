@@ -94,7 +94,7 @@ body {
 /*Esto es lo de reponsive de tienda para pantallas de portatiles S*/
 
 /*Responsive para pantallas grandes*/
-@media screen and (max-width: 1680){
+
 	* {
 	margin: 0;
 	padding: 0;
@@ -170,5 +170,4 @@ body {
 	height: 150px;
 	font-size: 100px;	
 	
-}
 }

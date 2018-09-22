@@ -282,7 +282,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 /*Este es el comprado*/
-
+.header4{
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+}
+.comprar a {
+	display: inline-block;
+}
+.comprar p {
+	display: inline-block;
+		font-size: 20px;
+}
+/*Este es el comprado*/
 
 /*Esto es lo de reponsive de tienda*/
   
