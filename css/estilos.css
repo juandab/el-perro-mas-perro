@@ -484,7 +484,7 @@ button:hover{
 	transition-duration: 0.5s;
 }
 .descripcion2{
-	justify-content: justify;
+	text-align: justify;
 	padding-top: 30px;
 	border-top: 1px solid #777C79;
 	font-family: 'Arvo', serif;
@@ -577,6 +577,87 @@ button:hover{
 	.numeros {
 		width: 60%;
 		margin-left: 90px;
+	}
+}
+@media screen and (max-width: 391px){
+
+	.navega {
+		margin-left: 0;
+		display: block;
+		text-align: center;
+		margin-bottom: 40px;
+		font-size: 30px;
+	}
+	.descuento {
+
+		left: 230px;
+		top: 160px;
+	}
+	.imagen {
+		margin-left: 10%;
+	}
+	.imagen img {
+		width: 310px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.descripcion1 {
+		width: 100%;
+	}
+	.descripcion1 a {
+		display: block;
+		text-align: center;
+		/*margin-left: 60px;*/
+		margin-left: 0;
+		font-size: 60px;
+	}
+	.descripcion1 .precio {
+		text-align: center;
+		margin-left: 0;
+		/*margin-left: 140px;*/
+		font-size: 40px;
+	}
+	.descripcion1 .costo {
+		text-align: center;
+		font-size: 40px;
+		margin-left: 0;
+		/*margin-left: 120px;*/
+	}
+	.descripcion1 button {
+		height: 80px;
+		width: 350px;
+		margin-left: 10px;
+		border-radius: 5px;
+		border-color: #ffffff10;
+	}
+	.descripcion2 {
+		margin: 0 30px 0 30px;
+		text-align: justify;
+	}
+	.footer2 {
+		margin-left: 20px;
+		display: flex;
+		font-size: 15px;
+	}
+	.descripcion1 .cantidad {
+		margin-left: 145px;
+	}
+	.numeros {
+		width: 60%;
+		margin-left: 60px;
+	}
+}
+@media screen and (max-width: 360px){
+	.imagen {
+		margin-left: 7%;
+	}
+
+	.descripcion1 button {
+		height: 80px;
+		width: 350px;
+		margin-left: 5px;
+		border-radius: 5px;
+		border-color: #ffffff10;
 	}
 }
 
