@@ -377,6 +377,7 @@
 	display: inline-block;
 }
 .navega a {
+	font-family: 'Arvo', serif;
 	text-decoration: none;
 	color: #777C79;
 }
@@ -440,7 +441,7 @@
 	border-radius: 5px 5px 50px 50px;
 	font-family: 'Arvo', serif;
 	left: 550px;
-	top: 110px;
+	top: 170px;
 	position:absolute;
 	width: 80px;
 	height: 110px;
@@ -450,35 +451,43 @@
 	color: #fff;
 	
 }
+.cantidad{
+	font-family: 'Arvo', serif;
+	margin-bottom: 5px;
+	margin-bottom: 40px;
+}
+.numeros {
+	text-align: center;
+	width: 80px;
+	font-family: 'Arvo', serif;
+	padding: 10px 20px;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
 .body4 a{
 	display: inline-block;
 }
 button {
 	margin-bottom: 30px; 
 	color: #ffffff;
-	background: #4EB97A;
+	background: #FF8300;
 	font-size: 18px;
 	width: 100%;
 	padding: 10px;
 	font-family: 'Arvo', serif;
-
+	border-color: #ffffff10;
+	border-radius: 5px;
 }
 button:hover{
-	background: #6ADE9A;
+	background: #FFB900;
+	transition-duration: 0.5s;
 }
 .descripcion2{
 	justify-content: justify;
 	padding-top: 30px;
 	border-top: 1px solid #777C79;
 	font-family: 'Arvo', serif;
-}
-.logos {
-	margin-top: 50px;
-	text-align: center;
-}
-.logos img {
-	width: 100px;
-	height: auto;
 }
 
 .footer2 {
@@ -490,4 +499,86 @@ button:hover{
 
 }
 /*Este es el comprado*/
+
+/*Este es el resposive de comprado*/
+
+@media screen and (max-width: 980px){
+	.descuento {
+		left: 440px;
+		top: 180px;
+		height: 80px;
+		width: 70px;
+		font-size: 13px;
+	}
+	.imagen {
+		margin-left: 16%;
+	}
+}
+/*Este es el resposive de comprado*/
+
+
+/*Este es de 500px*/
+@media screen and (max-width: 500px){
+
+	.navega {
+		margin-left: 0;
+		display: block;
+		text-align: center;
+		margin-bottom: 40px;
+		font-size: 30px;
+	}
+	.descuento {
+
+		left: 320px;
+		top: 160px;
+	}
+	.imagen {
+		margin-left: 10%;
+	}
+	.imagen img {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.descripcion1 {
+		width: 100%;
+	}
+	.descripcion1 a {
+		text-align: center;
+		margin-left: 120px;
+		font-size: 60px;
+	}
+	.descripcion1 .precio {
+		margin-left: 180px;
+		font-size: 40px;
+	}
+	.descripcion1 .costo {
+		font-size: 40px;
+		margin-left: 170px;
+	}
+	.descripcion1 button {
+		height: 80px;
+		width: 400px;
+		margin-left: 50px;
+		border-radius: 5px;
+		border-color: #ffffff10;
+	}
+	.descripcion2 {
+		margin: 0 20px 0 50px;
+		text-align: justify;
+	}
+	.footer2 {
+		margin-left: 30px;
+		display: flex;
+		font-size: 15px;
+	}
+	.descripcion1 .cantidad {
+		margin-left: 200px;
+	}
+	.numeros {
+		width: 60%;
+		margin-left: 90px;
+	}
+}
+
+/*Este es de 500px*/
 
