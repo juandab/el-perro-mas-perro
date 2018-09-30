@@ -121,6 +121,9 @@
     right: 400px;
 
 }
+.muestras {
+	text-align: center;
+}
 .muestras ul li {
 	display: inline-block;
 }
@@ -168,7 +171,7 @@
 	color: #ffffff;
 }
 .ofertas {
-	 margin-left: 200px;
+	 text-align: center;
 }
 .ofertas img {
 	width: 240px;
@@ -429,7 +432,7 @@
 }
 .imagen img {
 	border:1px solid #000000;
-	padding-top: 90px;
+	padding-top: 120px;
 	margin-right: 20px;
 	border-radius: 5px;
 	padding-bottom: 150px;
@@ -438,6 +441,7 @@
 	display: inline-block;
 }
 .descuento {
+	display: none;
 	border-radius: 5px 5px 50px 50px;
 	font-family: 'Arvo', serif;
 	left: 550px;
@@ -504,6 +508,8 @@ button:hover{
 
 @media screen and (max-width: 980px){
 	.descuento {
+		font-family: 'Asap', sans-serif;
+		display: block;
 		left: 440px;
 		top: 180px;
 		height: 80px;
@@ -663,3 +669,12 @@ button:hover{
 
 /*Este es de 500px*/
 
+
+/*Este va a ser la solucion de Oferta.html*/
+.solucionOferta {
+	left: 550px;
+	top: 170px;
+}
+
+
+/*Este va a ser la solucion de Oferta.html*/
