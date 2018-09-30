@@ -216,160 +216,6 @@
 }
 
 /*Este es el comprado*/
-
-
-
-/*Esto es lo de reponsive de tienda*/
-  
-  /*Este va a ser la adaptación para tablet*/
-  @media screen and (max-width: 980px){
-  	/*Este es el body*/
-  	.portada{
-  		margin-left: 0px;
-  		text-align: center;
-	}
-  	.portada strong {
-  		font-size: 40px;
-  	}
-  	.muestras {
-  		display: block;
-  		text-align: center;
-  		margin:0px auto;
-  		margin-bottom: 40px;
-  	}
-  	.muestras .ver {
-  		margin:5px 0px;
-  		border-bottom: 1px solid #B5ADAD;
-  		border-radius: 20px;
-  	}
- 
-  	.muestras img {
-  		width: 350px;
-  		height: auto;
-  	}
-  	.muestras a{
-  		font-size: 35px;
-  	}
-  	.slider{
-  		display: none;
-  	}
-  	.body{
-		text-decoration: none;
-		margin: 0;
-	}
-	.nav {
-		 display: none;
-	}
-  	.nav ul	li {
-			padding-left: 6.3%;
-			display: inline-block;
-	}
-	.nav ul li a{
-		font-size: 30px;
-	}
-	.nav ul .contacto {
-		display: none;
-		margin: auto;
-		text-align: center;
-	}
-	.textoencima {
-		right: 260px;
-	}
-	.texto {
-		top: 88px;
-		right: 260px;
-	}
-	.slider img{
-		height: 380px;
-	}
-	.ofertas {
-		display: block;
-		text-align: center;
-		margin-left: 0;
-	}
-	.ofertas .ver2{
-		border-bottom: 1px solid #ffffff;
-		border-radius: 20px;
-	}
-	.ofertas img {
-		width: 300px;
-	}
-	.manzana {
-		display: block;
-		margin: 0 20%;
-	}
-	.raya {
-		border-top: 0;
-	}
-	.body2 {
-		margin: 0px;
-	}
-  }
-  /*Este es para movil*/
-  @media screen and (max-width: 500px){
-  	.body {
-  		margin: 0px;
-  	}
-  	.portada{
-  		margin-left: 0;
-  		display: block;
-  		text-align: center;
-  	}
-  	.portada strong {
-  		margin: 0px;
-  		padding: 0px;
-  		text-align: center;
-  		font-size: 35px;
-  	}
- 	.body2 {
- 		width: 100%;
- 		padding: 0px;
- 	}
- 	.muestras {
- 		padding: 0px;
- 		margin:0px;
- 	}
- 	.muestras img {
-	width: 200px;
-	height: auto;
-}
- 	.titulo2{
- 		margin-top: 25px;
- 	}
- 	.ofertas {
- 		margin: 5px 30px;
- 	}
- 	.ofertas ul li {
- 		 display: inline-block;
- 	}
- 	.ofertas img {
- 		width: 200px;
- 		height: auto;
- 		margin: 0px;
- 	}
- 	.portada2 {
- 		padding-top: 60px;
- 	}
-
- 	.manzana {
- 		display: inline-block;
- 		margin: 0 ;
- 		margin-bottom: 25px;
- 	}
-  }
-@media screen and (max-width: 360px){
-	.body {
-		text-align: center;
-	}
-	.muestras {
-		margin-left: 0px;
-	}
-	.ofertas ul {
-		margin-left: 0px;
-	}
-}
-
-/*Este es el comprado*/
 .navega {
 	font-size: 18px;
 	display: inline-block;
@@ -384,9 +230,6 @@
 	text-decoration: none;
 	color: #777C79;
 }
-
-
-
 .portada3 {
 	margin-top: 40px;
 	font-size: 30px;
@@ -504,9 +347,93 @@ button:hover{
 }
 /*Este es el comprado*/
 
-/*Este es el resposive de comprado*/
 
-@media screen and (max-width: 980px){
+/*Esto es lo de reponsive de tienda*/
+  
+  /*Este va a ser la adaptación para tablet*/
+  @media screen and (max-width: 980px){
+  	/*Este es el body*/
+  	.portada{
+  		margin-left: 0px;
+  		text-align: center;
+	}
+  	.portada strong {
+  		font-size: 40px;
+  	}
+  	.muestras {
+  		display: block;
+  		text-align: center;
+  		margin:0px auto;
+  		margin-bottom: 40px;
+  	}
+  	.muestras .ver {
+  		margin:5px 0px;
+  		border-bottom: 1px solid #B5ADAD;
+  		border-radius: 20px;
+  	}
+ 
+  	.muestras img {
+  		width: 350px;
+  		height: auto;
+  	}
+  	.muestras a{
+  		font-size: 35px;
+  	}
+  	.slider{
+  		display: none;
+  	}
+  	.body{
+		text-decoration: none;
+		margin: 0;
+	}
+	.nav {
+		 display: none;
+	}
+  	.nav ul	li {
+			padding-left: 6.3%;
+			display: inline-block;
+	}
+	.nav ul li a{
+		font-size: 30px;
+	}
+	.nav ul .contacto {
+		display: none;
+		margin: auto;
+		text-align: center;
+	}
+	.textoencima {
+		right: 260px;
+	}
+	.texto {
+		top: 88px;
+		right: 260px;
+	}
+	.slider img{
+		height: 380px;
+	}
+	.ofertas {
+		display: block;
+		text-align: center;
+		margin-left: 0;
+	}
+	.ofertas .ver2{
+		border-bottom: 1px solid #ffffff;
+		border-radius: 20px;
+	}
+	.ofertas img {
+		width: 300px;
+	}
+	.manzana {
+		display: block;
+		margin: 0 20%;
+	}
+	.raya {
+		border-top: 0;
+	}
+	.body2 {
+		margin: 0px;
+	}
+	/*Este el responsive de comprado */
 	.descuento {
 		font-family: 'Asap', sans-serif;
 		display: block;
@@ -519,14 +446,81 @@ button:hover{
 	.imagen {
 		margin-left: 16%;
 	}
+	.imagen img {
+		padding-top: 180px;
+	}
+	.descuento {
+		top: 150px;
+	}
+	/*Este el responsive de comprado  de 980px*/
+  }
+
+  @media screen and (max-width: 868px){
+  	.imagen {
+  		margin-left: 15%;
+  	}
+  	.imagen img {
+  		padding-top:200px;
+  		width: 350px;
+  	}
+  	.descuento {
+  		left: 360px;
+  	}
+  }
+
+  /*Este es para movil*/
+  @media screen and (max-width: 500px){
+  	.body {
+  		margin: 0px;
+  	}
+  	.portada{
+  		margin-left: 0;
+  		display: block;
+  		text-align: center;
+  	}
+  	.portada strong {
+  		margin: 0px;
+  		padding: 0px;
+  		text-align: center;
+  		font-size: 35px;
+  	}
+ 	.body2 {
+ 		width: 100%;
+ 		padding: 0px;
+ 	}
+ 	.muestras {
+ 		padding: 0px;
+ 		margin:0px;
+ 	}
+ 	.muestras img {
+	width: 180px;
+	height: auto;
 }
-/*Este es el resposive de comprado*/
+ 	.titulo2{
+ 		margin-top: 25px;
+ 	}
+ 	.ofertas {
+ 		margin: 5px 30px;
+ 	}
+ 	.ofertas ul li {
+ 		 display: inline-block;
+ 	}
+ 	.ofertas img {
+ 		width: 200px;
+ 		height: auto;
+ 		margin: 0px;
+ 	}
+ 	.portada2 {
+ 		padding-top: 60px;
+ 	}
 
-
-/*Este es de 500px*/
-@media screen and (max-width: 500px){
-
-	.navega {
+ 	.manzana {
+ 		display: inline-block;
+ 		margin: 0 ;
+ 		margin-bottom: 25px;
+ 	}
+ 	/*Este es el resposive de Comprado de 500px*/
+ 	.navega {
 		margin-left: 0;
 		display: block;
 		text-align: center;
@@ -584,9 +578,10 @@ button:hover{
 		width: 60%;
 		margin-left: 90px;
 	}
-}
-@media screen and (max-width: 391px){
-
+	/*Este es el resposive de Comprado de 500 px*/
+  }
+  @media screen and (max-width: 391px){
+  	/*Este es el resposive de Comprado por 391px*/
 	.navega {
 		margin-left: 0;
 		display: block;
@@ -652,9 +647,22 @@ button:hover{
 		width: 60%;
 		margin-left: 60px;
 	}
+	/*Este es el resposive de Comprado por 391px*/
 }
+
+
 @media screen and (max-width: 360px){
-	.imagen {
+	.body {
+		text-align: center;
+	}
+	.muestras {
+		margin-left: 0px;
+	}
+	.ofertas ul {
+		margin-left: 0px;
+	}
+	/*Este es el resposive de Comprado de 360px*/
+		.imagen {
 		margin-left: 7%;
 	}
 
@@ -665,16 +673,8 @@ button:hover{
 		border-radius: 5px;
 		border-color: #ffffff10;
 	}
+	/*Este es el resposive de Comprado de 360px*/
 }
 
-/*Este es de 500px*/
+/*Este es el comprado*/
 
-
-/*Este va a ser la solucion de Oferta.html*/
-.solucionOferta {
-	left: 550px;
-	top: 170px;
-}
-
-
-/*Este va a ser la solucion de Oferta.html*/
